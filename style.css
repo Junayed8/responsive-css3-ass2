@@ -1,0 +1,224 @@
+body {
+    font-family: Arial Black;
+    margin-left: 200px;
+}
+
+h1 {
+    margin-top: 50px;
+    color: rgb(34, 11, 11);
+}
+
+header {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(44, 70, 97)
+}
+
+.para {
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+button {
+    padding: 15px;
+    font-size: 25px;
+    background-color: rgb(255, 0, 119);
+}
+
+.main-camera {
+    margin-left: 100px;
+}
+
+.main-camera img {
+    width: 550px;
+    height: 550px;
+}
+
+main {
+    margin-top: 300px;
+}
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(114, 10, 10);
+}
+
+.container {
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: gray;
+    font-size: 20px;
+    grid-column-gap: 5px;
+    margin-bottom: 30px;
+}
+
+.products {
+    margin-left: 60px;
+    text-align: center;
+}
+
+.products ol li {
+    list-style: none;
+
+}
+
+.star {
+    display: flex;
+}
+
+.fa-solid,
+.fa-star {
+    color: rgb(245, 245, 24);
+}
+
+.product-details {
+    font-size: 17px;
+}
+
+.sect-1 {
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-2 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-3 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-4 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-5 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-6 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-7 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-8 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.sect-9 {
+    border: 1px solid white;
+    margin-left: 10px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-size: 25px;
+    color: brown;
+    text-align: end;
+    padding-left: 1120px;
+}
+
+.fa-arrow-right {
+    color: rgb(32, 30, 30);
+}
+
+.feature {
+    font-size: 30px;
+}
+
+.last-sect {
+    display: flex;
+}
+
+b {
+    font-size: 30px;
+    color: rgb(97, 31, 31);
+}
+
+.last-p {
+    margin-left: 30px;
+    padding-left: 90px;
+}
+
+/* .......
+        media query ........
+        ............... */
+
+
+@media (max-width 662px) {
+    header {
+        background-color: aqua;
+    }
+
+    .container {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width 992px) {
+
+    header {
+        background-color: aqua;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
